@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color.blue.ignoresSafeArea()
+            Text("ContentView").foregroundColor(.white).font(.custom("CreteRound-Regular", size: 30))
+        }
     }
 }
 

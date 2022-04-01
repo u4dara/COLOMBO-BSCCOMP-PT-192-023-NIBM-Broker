@@ -14,6 +14,8 @@
 		408F089727F6FECE00BD9549 /* COLOMBO_BSCCOMP_PT_023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F089627F6FECE00BD9549 /* COLOMBO_BSCCOMP_PT_023Tests.swift */; };
 		408F08A127F6FECE00BD9549 /* COLOMBO_BSCCOMP_PT_023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F08A027F6FECE00BD9549 /* COLOMBO_BSCCOMP_PT_023UITests.swift */; };
 		408F08A327F6FECE00BD9549 /* COLOMBO_BSCCOMP_PT_023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F08A227F6FECE00BD9549 /* COLOMBO_BSCCOMP_PT_023UITestsLaunchTests.swift */; };
+		408F08B027F7024000BD9549 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F08AF27F7023F00BD9549 /* SplashScreenView.swift */; };
+		408F08B327F72A2700BD9549 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F08B227F72A2700BD9549 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		408F089C27F6FECE00BD9549 /* COLOMBO-BSCCOMP-PT-023UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COLOMBO-BSCCOMP-PT-023UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		408F08A027F6FECE00BD9549 /* COLOMBO_BSCCOMP_PT_023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLOMBO_BSCCOMP_PT_023UITests.swift; sourceTree = "<group>"; };
 		408F08A227F6FECE00BD9549 /* COLOMBO_BSCCOMP_PT_023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLOMBO_BSCCOMP_PT_023UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		408F08AF27F7023F00BD9549 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		408F08B227F72A2700BD9549 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,11 @@
 		408F088427F6FECB00BD9549 /* COLOMBO-BSCCOMP-PT-023 */ = {
 			isa = PBXGroup;
 			children = (
+				408F08B127F70E3400BD9549 /* Fonts */,
 				408F088527F6FECB00BD9549 /* COLOMBO_BSCCOMP_PT_023App.swift */,
 				408F088727F6FECB00BD9549 /* ContentView.swift */,
+				408F08B227F72A2700BD9549 /* LoginView.swift */,
+				408F08AF27F7023F00BD9549 /* SplashScreenView.swift */,
 				408F088927F6FECD00BD9549 /* Assets.xcassets */,
 				408F088B27F6FECD00BD9549 /* Preview Content */,
 			);
@@ -125,6 +132,13 @@
 				408F08A227F6FECE00BD9549 /* COLOMBO_BSCCOMP_PT_023UITestsLaunchTests.swift */,
 			);
 			path = "COLOMBO-BSCCOMP-PT-023UITests";
+			sourceTree = "<group>";
+		};
+		408F08B127F70E3400BD9549 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,8 @@
 			files = (
 				408F088827F6FECB00BD9549 /* ContentView.swift in Sources */,
 				408F088627F6FECB00BD9549 /* COLOMBO_BSCCOMP_PT_023App.swift in Sources */,
+				408F08B327F72A2700BD9549 /* LoginView.swift in Sources */,
+				408F08B027F7024000BD9549 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct COLOMBO_BSCCOMP_PT_023App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }
