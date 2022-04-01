@@ -15,14 +15,14 @@ struct SplashScreenView: View {
     
     var body: some View {
         if isActive {
-            ContentView()
+            LoginView()
         }
         else {
             VStack {
                 VStack {
                     Image("House").resizable().frame(width: 300, height: 300)
                     Text("NIBM Broker")
-                        .font(Font.custom("Canela Deck Regular", size: 26))
+                        .font(Font.custom("Noteworthy-bold", size: 40))
                         .foregroundColor(.black.opacity(0.8))
                 }
                     .scaleEffect(size)
