@@ -20,20 +20,25 @@ struct SplashScreenView: View {
         else {
             VStack {
                 VStack {
-                    Image("House").resizable().frame(width: 300, height: 300)
-                    Text("NIBM Broker")
-                        .font(Font.custom("Noteworthy-bold", size: 40))
-                        .foregroundColor(.black.opacity(0.8))
-                }
-                    .scaleEffect(size)
-                    .opacity(opacity)
-                    .onAppear {
-                        withAnimation(.easeIn(duration: 1.2)) {
-                            self.size = 0.9
-                            self.opacity = 1.0
-                        }
+                    VStack {
+                        Image("HouseLogo").resizable().frame(width: 300, height: 300)
+                        Text("NIBM Broker")
+                            .font(Font.custom("Noteworthy-bold", size: 40))
+                            .foregroundColor(.blue.opacity(0.8))
                     }
+                        .scaleEffect(size)
+                        .opacity(opacity)
+                        .onAppear {
+                            withAnimation(.easeIn(duration: 1.2)) {
+                                self.size = 0.9
+                                self.opacity = 1.0
+                            }
+                        }
+                }
+                Spacer()
+                Image("NIBMLogo").resizable().frame(width: 140.75, height: 70.5, alignment: .bottom)
             }
+            
             .onAppear {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                     withAnimation {
