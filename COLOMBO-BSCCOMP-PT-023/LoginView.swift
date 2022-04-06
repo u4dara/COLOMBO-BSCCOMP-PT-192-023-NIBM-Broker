@@ -26,10 +26,10 @@ struct LoginView: View {
                     Text("Login").font(Font.custom("Futura-Bold", size: 40))
                         .padding()
                     TextField("Username", text: $username).padding()
-                        .frame(width: 350, height: 50).background(Color.black.opacity(0.09))
+                        .background(Color.black.opacity(0.09))
                         .cornerRadius(10).border(.red, width: CGFloat(wrongUsername))
                     TextField("Password", text: $password).padding()
-                        .frame(width: 350, height: 50).background(Color.black.opacity(0.09))
+                        .background(Color.black.opacity(0.09))
                         .cornerRadius(10).border(.red, width: CGFloat(wrongPassword))
                     Button("Terms and Policy") {
                         
@@ -38,7 +38,7 @@ struct LoginView: View {
                     Button("Login") {
                         
                     }
-                    .foregroundColor(.white).frame(width: 350, height: 50)
+                    .foregroundColor(.white).frame(width: 300, height: 50)
                     .background(Color.blue).cornerRadius(10).font(Font.custom("Futura", size: 25))
                     Button("Forgotten Password?") {
                         
@@ -47,13 +47,14 @@ struct LoginView: View {
                     Button("Create New Account") {
                         
                     }
-                    .foregroundColor(.white).frame(width: 350, height: 50)
+                    .foregroundColor(.white).frame(width: 300, height: 50)
                     .background(Color.green).cornerRadius(10).font(Font.custom("Futura", size: 25))
                     
                     NavigationLink(destination: Text("You are logged in @\(username)"), isActive: $showingLoginScreen) {
                         EmptyView()
                     }
                 }
+                .padding()
             }
             .navigationBarHidden(true)
         }
