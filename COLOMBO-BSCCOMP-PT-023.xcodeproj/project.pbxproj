@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40586AC427FDEB8B0050183A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40586AC327FDEB8B0050183A /* GoogleService-Info.plist */; };
+		4087C9ED27FDBC6200D910C4 /* ForgetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4087C9EC27FDBC6200D910C4 /* ForgetPasswordView.swift */; };
 		408F088627F6FECB00BD9549 /* COLOMBO_BSCCOMP_PT_023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F088527F6FECB00BD9549 /* COLOMBO_BSCCOMP_PT_023App.swift */; };
 		408F088827F6FECB00BD9549 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F088727F6FECB00BD9549 /* ContentView.swift */; };
 		408F088A27F6FECD00BD9549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408F088927F6FECD00BD9549 /* Assets.xcassets */; };
@@ -17,6 +19,9 @@
 		408F08B027F7024000BD9549 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F08AF27F7023F00BD9549 /* SplashScreenView.swift */; };
 		408F08B327F72A2700BD9549 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F08B227F72A2700BD9549 /* LoginView.swift */; };
 		408F08B527F73F4300BD9549 /* SignUPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F08B427F73F4300BD9549 /* SignUPView.swift */; };
+		749CCFA347189D00E426DCEA /* Pods_COLOMBO_BSCCOMP_PT_023_COLOMBO_BSCCOMP_PT_023UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97157407E2E1FB2A0CB692A /* Pods_COLOMBO_BSCCOMP_PT_023_COLOMBO_BSCCOMP_PT_023UITests.framework */; };
+		9CDE8E1168A91F261F01AAF9 /* Pods_COLOMBO_BSCCOMP_PT_023Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FE8570F6894B87C0C882A1 /* Pods_COLOMBO_BSCCOMP_PT_023Tests.framework */; };
+		A74990946B0D813A9BE3AD4C /* Pods_COLOMBO_BSCCOMP_PT_023.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76C859E725BB9768B64CABC /* Pods_COLOMBO_BSCCOMP_PT_023.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40586AC327FDEB8B0050183A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4087C9EC27FDBC6200D910C4 /* ForgetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordView.swift; sourceTree = "<group>"; };
 		408F088227F6FECB00BD9549 /* COLOMBO-BSCCOMP-PT-023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COLOMBO-BSCCOMP-PT-023.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		408F088527F6FECB00BD9549 /* COLOMBO_BSCCOMP_PT_023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLOMBO_BSCCOMP_PT_023App.swift; sourceTree = "<group>"; };
 		408F088727F6FECB00BD9549 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +57,15 @@
 		408F08AF27F7023F00BD9549 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		408F08B227F72A2700BD9549 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		408F08B427F73F4300BD9549 /* SignUPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPView.swift; sourceTree = "<group>"; };
+		44FE8570F6894B87C0C882A1 /* Pods_COLOMBO_BSCCOMP_PT_023Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COLOMBO_BSCCOMP_PT_023Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A87F910565DB3B1AA183BAD /* Pods-COLOMBO-BSCCOMP-PT-023.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COLOMBO-BSCCOMP-PT-023.debug.xcconfig"; path = "Target Support Files/Pods-COLOMBO-BSCCOMP-PT-023/Pods-COLOMBO-BSCCOMP-PT-023.debug.xcconfig"; sourceTree = "<group>"; };
+		741E54F276EB0F369C1728AC /* Pods-COLOMBO-BSCCOMP-PT-023.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COLOMBO-BSCCOMP-PT-023.release.xcconfig"; path = "Target Support Files/Pods-COLOMBO-BSCCOMP-PT-023/Pods-COLOMBO-BSCCOMP-PT-023.release.xcconfig"; sourceTree = "<group>"; };
+		8ED09B5250542B3958FC7FC0 /* Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests.release.xcconfig"; path = "Target Support Files/Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests/Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests.release.xcconfig"; sourceTree = "<group>"; };
+		95A3836C93C39D4D40203F93 /* Pods-COLOMBO-BSCCOMP-PT-023Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COLOMBO-BSCCOMP-PT-023Tests.debug.xcconfig"; path = "Target Support Files/Pods-COLOMBO-BSCCOMP-PT-023Tests/Pods-COLOMBO-BSCCOMP-PT-023Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4161BC55536AF73750933B9 /* Pods-COLOMBO-BSCCOMP-PT-023Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COLOMBO-BSCCOMP-PT-023Tests.release.xcconfig"; path = "Target Support Files/Pods-COLOMBO-BSCCOMP-PT-023Tests/Pods-COLOMBO-BSCCOMP-PT-023Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E80B7A2F5EE2BB4E74482CC6 /* Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests.debug.xcconfig"; path = "Target Support Files/Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests/Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E97157407E2E1FB2A0CB692A /* Pods_COLOMBO_BSCCOMP_PT_023_COLOMBO_BSCCOMP_PT_023UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COLOMBO_BSCCOMP_PT_023_COLOMBO_BSCCOMP_PT_023UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76C859E725BB9768B64CABC /* Pods_COLOMBO_BSCCOMP_PT_023.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COLOMBO_BSCCOMP_PT_023.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74990946B0D813A9BE3AD4C /* Pods_COLOMBO_BSCCOMP_PT_023.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CDE8E1168A91F261F01AAF9 /* Pods_COLOMBO_BSCCOMP_PT_023Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +89,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749CCFA347189D00E426DCEA /* Pods_COLOMBO_BSCCOMP_PT_023_COLOMBO_BSCCOMP_PT_023UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		174DF41F0AD7F7A395600855 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A87F910565DB3B1AA183BAD /* Pods-COLOMBO-BSCCOMP-PT-023.debug.xcconfig */,
+				741E54F276EB0F369C1728AC /* Pods-COLOMBO-BSCCOMP-PT-023.release.xcconfig */,
+				E80B7A2F5EE2BB4E74482CC6 /* Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests.debug.xcconfig */,
+				8ED09B5250542B3958FC7FC0 /* Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests.release.xcconfig */,
+				95A3836C93C39D4D40203F93 /* Pods-COLOMBO-BSCCOMP-PT-023Tests.debug.xcconfig */,
+				B4161BC55536AF73750933B9 /* Pods-COLOMBO-BSCCOMP-PT-023Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		40586AC527FEFD050050183A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				408F08AF27F7023F00BD9549 /* SplashScreenView.swift */,
+				4087C9EC27FDBC6200D910C4 /* ForgetPasswordView.swift */,
+				408F08B427F73F4300BD9549 /* SignUPView.swift */,
+				408F08B227F72A2700BD9549 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		408F087927F6FECB00BD9549 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +127,8 @@
 				408F089527F6FECE00BD9549 /* COLOMBO-BSCCOMP-PT-023Tests */,
 				408F089F27F6FECE00BD9549 /* COLOMBO-BSCCOMP-PT-023UITests */,
 				408F088327F6FECB00BD9549 /* Products */,
+				174DF41F0AD7F7A395600855 /* Pods */,
+				B74C3D9D608A837EFD2CB47C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +145,10 @@
 		408F088427F6FECB00BD9549 /* COLOMBO-BSCCOMP-PT-023 */ = {
 			isa = PBXGroup;
 			children = (
-				408F08B127F70E3400BD9549 /* Fonts */,
+				40586AC527FEFD050050183A /* Views */,
 				408F088527F6FECB00BD9549 /* COLOMBO_BSCCOMP_PT_023App.swift */,
 				408F088727F6FECB00BD9549 /* ContentView.swift */,
-				408F08B227F72A2700BD9549 /* LoginView.swift */,
-				408F08B427F73F4300BD9549 /* SignUPView.swift */,
-				408F08AF27F7023F00BD9549 /* SplashScreenView.swift */,
+				40586AC327FDEB8B0050183A /* GoogleService-Info.plist */,
 				408F088927F6FECD00BD9549 /* Assets.xcassets */,
 				408F088B27F6FECD00BD9549 /* Preview Content */,
 			);
@@ -137,11 +180,14 @@
 			path = "COLOMBO-BSCCOMP-PT-023UITests";
 			sourceTree = "<group>";
 		};
-		408F08B127F70E3400BD9549 /* Fonts */ = {
+		B74C3D9D608A837EFD2CB47C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F76C859E725BB9768B64CABC /* Pods_COLOMBO_BSCCOMP_PT_023.framework */,
+				E97157407E2E1FB2A0CB692A /* Pods_COLOMBO_BSCCOMP_PT_023_COLOMBO_BSCCOMP_PT_023UITests.framework */,
+				44FE8570F6894B87C0C882A1 /* Pods_COLOMBO_BSCCOMP_PT_023Tests.framework */,
 			);
-			path = Fonts;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 408F08A627F6FECE00BD9549 /* Build configuration list for PBXNativeTarget "COLOMBO-BSCCOMP-PT-023" */;
 			buildPhases = (
+				AABFD17C15FAA4A8935ABF60 /* [CP] Check Pods Manifest.lock */,
 				408F087E27F6FECB00BD9549 /* Sources */,
 				408F087F27F6FECB00BD9549 /* Frameworks */,
 				408F088027F6FECB00BD9549 /* Resources */,
+				B423F6C08FF516D30E72127C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 408F08A927F6FECE00BD9549 /* Build configuration list for PBXNativeTarget "COLOMBO-BSCCOMP-PT-023Tests" */;
 			buildPhases = (
+				872038C1DCABD002F43D9549 /* [CP] Check Pods Manifest.lock */,
 				408F088E27F6FECE00BD9549 /* Sources */,
 				408F088F27F6FECE00BD9549 /* Frameworks */,
 				408F089027F6FECE00BD9549 /* Resources */,
@@ -186,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 408F08AC27F6FECE00BD9549 /* Build configuration list for PBXNativeTarget "COLOMBO-BSCCOMP-PT-023UITests" */;
 			buildPhases = (
+				1901460F02789CA6B834AE44 /* [CP] Check Pods Manifest.lock */,
 				408F089827F6FECE00BD9549 /* Sources */,
 				408F089927F6FECE00BD9549 /* Frameworks */,
 				408F089A27F6FECE00BD9549 /* Resources */,
+				F6A8D27B242783501CCE97C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +301,7 @@
 			files = (
 				408F088D27F6FECD00BD9549 /* Preview Assets.xcassets in Resources */,
 				408F088A27F6FECD00BD9549 /* Assets.xcassets in Resources */,
+				40586AC427FDEB8B0050183A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +321,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1901460F02789CA6B834AE44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		872038C1DCABD002F43D9549 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-COLOMBO-BSCCOMP-PT-023Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AABFD17C15FAA4A8935ABF60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-COLOMBO-BSCCOMP-PT-023-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B423F6C08FF516D30E72127C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-COLOMBO-BSCCOMP-PT-023/Pods-COLOMBO-BSCCOMP-PT-023-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-COLOMBO-BSCCOMP-PT-023/Pods-COLOMBO-BSCCOMP-PT-023-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-COLOMBO-BSCCOMP-PT-023/Pods-COLOMBO-BSCCOMP-PT-023-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A8D27B242783501CCE97C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests/Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests/Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests/Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		408F087E27F6FECB00BD9549 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,6 +433,7 @@
 				408F088827F6FECB00BD9549 /* ContentView.swift in Sources */,
 				408F088627F6FECB00BD9549 /* COLOMBO_BSCCOMP_PT_023App.swift in Sources */,
 				408F08B327F72A2700BD9549 /* LoginView.swift in Sources */,
+				4087C9ED27FDBC6200D910C4 /* ForgetPasswordView.swift in Sources */,
 				408F08B027F7024000BD9549 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +587,7 @@
 		};
 		408F08A727F6FECE00BD9549 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A87F910565DB3B1AA183BAD /* Pods-COLOMBO-BSCCOMP-PT-023.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,12 +611,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		408F08A827F6FECE00BD9549 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741E54F276EB0F369C1728AC /* Pods-COLOMBO-BSCCOMP-PT-023.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -483,12 +641,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		408F08AA27F6FECE00BD9549 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95A3836C93C39D4D40203F93 /* Pods-COLOMBO-BSCCOMP-PT-023Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +668,7 @@
 		};
 		408F08AB27F6FECE00BD9549 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4161BC55536AF73750933B9 /* Pods-COLOMBO-BSCCOMP-PT-023Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +689,7 @@
 		};
 		408F08AD27F6FECE00BD9549 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E80B7A2F5EE2BB4E74482CC6 /* Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +708,7 @@
 		};
 		408F08AE27F6FECE00BD9549 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ED09B5250542B3958FC7FC0 /* Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

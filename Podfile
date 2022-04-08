@@ -6,6 +6,10 @@ target 'COLOMBO-BSCCOMP-PT-023' do
   use_frameworks!
 
   # Pods for COLOMBO-BSCCOMP-PT-023
+    pod 'Firebase/Analytics'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Firestore'
+    pod 'Firebase/Storage'
 
   target 'COLOMBO-BSCCOMP-PT-023Tests' do
     inherit! :search_paths

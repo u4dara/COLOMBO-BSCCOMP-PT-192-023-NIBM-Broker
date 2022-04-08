@@ -1,0 +1,6 @@
+framework module Pods_COLOMBO_BSCCOMP_PT_023_COLOMBO_BSCCOMP_PT_023UITests {
+  umbrella header "Pods-COLOMBO-BSCCOMP-PT-023-COLOMBO-BSCCOMP-PT-023UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
