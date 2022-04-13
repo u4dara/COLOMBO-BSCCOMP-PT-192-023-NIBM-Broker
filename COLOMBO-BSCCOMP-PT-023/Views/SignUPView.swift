@@ -32,36 +32,36 @@ struct SignUPView: View {
                             VStack {
                                 TextField("Name", text: $name).padding()
                                     .background(Color.black.opacity(0.09))
-                                    .cornerRadius(10)
-                                DatePicker(selection: /*@START_MENU_TOKEN@*/.constant(Date())/*@END_MENU_TOKEN@*/, label: { Text("Date of Birth") }).padding().background(Color.black.opacity(0.09)).cornerRadius(10)
+                                    .cornerRadius(12)
+                                DatePicker(selection: /*@START_MENU_TOKEN@*/.constant(Date())/*@END_MENU_TOKEN@*/, label: { Text("Date of Birth") }).padding().background(Color.black.opacity(0.09)).cornerRadius(12)
                                 TextField("Gender", text: $gender).padding()
                                     .background(Color.black.opacity(0.09))
-                                    .cornerRadius(10)
+                                    .cornerRadius(12)
                                 TextField("Mobile Number", text: $mobile).padding()
                                     .background(Color.black.opacity(0.09))
-                                    .cornerRadius(10)
+                                    .cornerRadius(12)
                                 TextField("Email", text: $email).padding()
                                     .background(Color.black.opacity(0.09))
-                                    .cornerRadius(10)
+                                    .cornerRadius(12)
                                 TextField("Username", text: $username).padding()
                                     .background(Color.black.opacity(0.09))
-                                    .cornerRadius(10)
+                                    .cornerRadius(12)
                                 SecureField("Password", text: $password).padding()
                                     .background(Color.black.opacity(0.09))
-                                    .cornerRadius(10)
+                                    .cornerRadius(12)
                                 SecureField("Password", text: $re_password).padding()
                                     .background(Color.black.opacity(0.09))
-                                    .cornerRadius(10)
+                                    .cornerRadius(12)
                                 Button("Create New Account") {
                                     
                                 }
                                 .foregroundColor(.white).frame(width: 300, height: 50)
-                                .background(Color.green).cornerRadius(10).font(Font.custom("Futura", size: 25)).padding(.bottom, 10)
+                                .background(Color.green).cornerRadius(12).font(Font.custom("Futura", size: 25)).padding(.bottom, 10)
                                 Button("Login") {
                                     
                                 }
                                 .foregroundColor(.blue).frame(width: 300, height: 50)
-                                .background(Color.white).border(.blue, width: 3).cornerRadius(10).font(Font.custom("Futura", size: 25))
+                                .background(Color.white).cornerRadius(12).font(Font.custom("Futura", size: 25))
                             }
                             .padding()
                         }

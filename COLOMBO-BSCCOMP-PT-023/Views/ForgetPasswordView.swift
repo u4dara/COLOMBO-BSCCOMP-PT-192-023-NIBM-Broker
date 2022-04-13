@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ForgetPasswordView: View {
     
-    @State private var email = ""
+    @State private var username = ""
     
     var body: some View {
         NavigationView {
@@ -19,17 +19,17 @@ struct ForgetPasswordView: View {
                 Circle().scale(1.35).foregroundColor(.white)
                 
                 VStack(spacing: 20) {
-                    Text("Password Reset").font(Font.custom("Futura-Bold", size: 40))
+                    Text("Reset Password").font(Font.custom("Futura-Bold", size: 40))
                         .padding()
-                    TextField("Email", text: $email).padding()
+                    TextField("Username", text: $username).padding()
                         .background(Color.black.opacity(0.09))
-                        .cornerRadius(10)
+                        .cornerRadius(12)
                         .padding(.bottom, 10)
                     Button("Send link") {
                         
                     }
                     .foregroundColor(.white).frame(width: 300, height: 50)
-                    .background(Color.blue).cornerRadius(10).font(Font.custom("Futura", size: 25))
+                    .background(Color.blue).cornerRadius(12).font(Font.custom("Futura", size: 25))
                 }
                 .padding()
             }

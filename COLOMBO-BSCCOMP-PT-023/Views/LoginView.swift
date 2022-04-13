@@ -27,10 +27,10 @@ struct LoginView: View {
                         .padding()
                     TextField("Username", text: $username).padding()
                         .background(Color.black.opacity(0.09))
-                        .cornerRadius(10)
+                        .cornerRadius(12)
                     SecureField("Password", text: $password).padding()
                         .background(Color.black.opacity(0.09))
-                        .cornerRadius(10)
+                        .cornerRadius(12)
                     Button("Terms and Policy") {
                         
                     }
@@ -39,7 +39,7 @@ struct LoginView: View {
                         
                     }
                     .foregroundColor(.white).frame(width: 300, height: 50)
-                    .background(Color.blue).cornerRadius(10).font(Font.custom("Futura", size: 25))
+                    .background(Color.blue).cornerRadius(12).font(Font.custom("Futura", size: 25))
                     Button("Forgotten Password?") {
                         
                     }
@@ -48,7 +48,7 @@ struct LoginView: View {
                         
                     }
                     .foregroundColor(.white).frame(width: 300, height: 50)
-                    .background(Color.green).cornerRadius(10).font(Font.custom("Futura", size: 25))
+                    .background(Color.green).cornerRadius(12).font(Font.custom("Futura", size: 25))
                     
                     NavigationLink(destination: Text("You are logged in @\(username)"), isActive: $showingLoginScreen) {
                         EmptyView()
