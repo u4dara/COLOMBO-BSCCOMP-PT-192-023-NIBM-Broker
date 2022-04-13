@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct SettingsView: View {
+    
     var body: some View {
+        
         ZStack {
-            Color.blue.ignoresSafeArea()
+            Color.blue
             Circle().scale(1.7).foregroundColor(.white.opacity(0.15))
             Circle().scale(1.35).foregroundColor(.white)
             VStack {

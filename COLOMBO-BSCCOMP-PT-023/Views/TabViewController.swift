@@ -10,14 +10,14 @@ import SwiftUI
 struct TabViewController: View {
     var body: some View {
         TabView {
-            Text("Home").tabItem {
+            HomeView().tabItem {
                 Image(systemName: "house")
                 Text("Home")
             }
             Text("Advertisements").tabItem {
                 Image(systemName: "doc.fill")
                 Text("Ads") }
-            Text("Profile").tabItem {
+            SettingsView().tabItem {
                 Image(systemName: "person")
                 Text("Profile")
             }
