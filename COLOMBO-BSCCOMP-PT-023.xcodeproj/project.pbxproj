@@ -22,6 +22,8 @@
 		40E89D812807305F00F972DA /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E89D802807305F00F972DA /* TabViewController.swift */; };
 		40E89D83280730E600F972DA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E89D82280730E600F972DA /* SettingsView.swift */; };
 		40E89D8528074C2600F972DA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E89D8428074C2600F972DA /* HomeView.swift */; };
+		40E89D89280AB53700F972DA /* Login:RegisterContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E89D88280AB53700F972DA /* Login:RegisterContentView.swift */; };
+		40E89D8B280B0BAC00F972DA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E89D8A280B0BAC00F972DA /* ImagePicker.swift */; };
 		749CCFA347189D00E426DCEA /* Pods_COLOMBO_BSCCOMP_PT_023_COLOMBO_BSCCOMP_PT_023UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97157407E2E1FB2A0CB692A /* Pods_COLOMBO_BSCCOMP_PT_023_COLOMBO_BSCCOMP_PT_023UITests.framework */; };
 		9CDE8E1168A91F261F01AAF9 /* Pods_COLOMBO_BSCCOMP_PT_023Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FE8570F6894B87C0C882A1 /* Pods_COLOMBO_BSCCOMP_PT_023Tests.framework */; };
 		A74990946B0D813A9BE3AD4C /* Pods_COLOMBO_BSCCOMP_PT_023.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76C859E725BB9768B64CABC /* Pods_COLOMBO_BSCCOMP_PT_023.framework */; };
@@ -63,6 +65,8 @@
 		40E89D802807305F00F972DA /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		40E89D82280730E600F972DA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		40E89D8428074C2600F972DA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		40E89D88280AB53700F972DA /* Login:RegisterContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login:RegisterContentView.swift"; sourceTree = "<group>"; };
+		40E89D8A280B0BAC00F972DA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		44FE8570F6894B87C0C882A1 /* Pods_COLOMBO_BSCCOMP_PT_023Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COLOMBO_BSCCOMP_PT_023Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A87F910565DB3B1AA183BAD /* Pods-COLOMBO-BSCCOMP-PT-023.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COLOMBO-BSCCOMP-PT-023.debug.xcconfig"; path = "Target Support Files/Pods-COLOMBO-BSCCOMP-PT-023/Pods-COLOMBO-BSCCOMP-PT-023.debug.xcconfig"; sourceTree = "<group>"; };
 		741E54F276EB0F369C1728AC /* Pods-COLOMBO-BSCCOMP-PT-023.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COLOMBO-BSCCOMP-PT-023.release.xcconfig"; path = "Target Support Files/Pods-COLOMBO-BSCCOMP-PT-023/Pods-COLOMBO-BSCCOMP-PT-023.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 				40E89D8428074C2600F972DA /* HomeView.swift */,
 				408F08B427F73F4300BD9549 /* SignUPView.swift */,
 				408F08B227F72A2700BD9549 /* LoginView.swift */,
+				40E89D88280AB53700F972DA /* Login:RegisterContentView.swift */,
+				40E89D8A280B0BAC00F972DA /* ImagePicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -440,10 +446,12 @@
 			files = (
 				40E89D8528074C2600F972DA /* HomeView.swift in Sources */,
 				408F08B527F73F4300BD9549 /* SignUPView.swift in Sources */,
+				40E89D89280AB53700F972DA /* Login:RegisterContentView.swift in Sources */,
 				40E89D83280730E600F972DA /* SettingsView.swift in Sources */,
 				408F088827F6FECB00BD9549 /* ContentView.swift in Sources */,
 				408F088627F6FECB00BD9549 /* COLOMBO_BSCCOMP_PT_023App.swift in Sources */,
 				408F08B327F72A2700BD9549 /* LoginView.swift in Sources */,
+				40E89D8B280B0BAC00F972DA /* ImagePicker.swift in Sources */,
 				4087C9ED27FDBC6200D910C4 /* ForgetPasswordView.swift in Sources */,
 				40E89D812807305F00F972DA /* TabViewController.swift in Sources */,
 				408F08B027F7024000BD9549 /* SplashScreenView.swift in Sources */,

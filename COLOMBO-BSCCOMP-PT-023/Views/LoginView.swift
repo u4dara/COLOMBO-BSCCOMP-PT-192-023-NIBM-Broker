@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct LoginView: View {
     @State private var username = ""
@@ -48,20 +49,10 @@ struct LoginView: View {
                         
                     }
                     .foregroundColor(.white).frame(width: 300, height: 50)
-                    .background(Color.green).cornerRadius(12).font(Font.custom("Futura", size: 25))
-                    
-                    NavigationLink(destination: Text("You are logged in @\(username)"), isActive: $showingLoginScreen) {
-                        EmptyView()
-                    }
+                    .background(Color.blue).cornerRadius(12).font(Font.custom("Futura", size: 25))
                 }
-                .padding()
             }
-            .navigationBarHidden(true)
         }
-    }
-    
-    func authenticateUser(username: String, password: String) {
-        
     }
 }
 
